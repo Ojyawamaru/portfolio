@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>北澤 宏太郎 | Kotaro Kitazawa</title>
+  <meta name="description" content="北澤 宏太郎のポートフォリオ。建築設計、ソフトウェア開発。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- ===== Hero ===== -->
+  <!-- 画面上部に固定のメニューバー（目次を開いてジャンプ） -->
+  <div class="topbar" id="topbar">
+    <a class="topbar-name" href="#top">北澤 宏太郎</a>
+    <button class="topbar-btn" type="button" aria-expanded="false" aria-controls="topmenu">
+      <span class="topbar-icon" aria-hidden="true"><i></i><i></i><i></i></span>目次
+    </button>
+  </div>
+  <nav class="topmenu" id="topmenu" aria-label="目次" hidden>
+    <div class="topmenu-inner"></div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <p class="hero-kicker"><span class="kicker-text">自己紹介 ＆ <span class="kicker-2">ANRIで投資をしたい理由</span></span></p>
+      <div class="hero-text">
+        <h1 class="name">北澤 宏太郎</h1>
+        <p class="hero-contact"><a href="mailto:jyawaku@gmail.com">jyawaku@gmail.com</a></p>
+      </div>
+      <div class="hero-photo">
+        <img src="img/profile.webp" alt="北澤 宏太郎" width="760" height="765">
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== 目次 ===== -->
+  <nav class="toc" aria-label="目次">
+   <div class="toc-box">
+    <h2 class="toc-title"><span>目次</span></h2>
+    <ol class="toc-list">
+      <li><a href="#career"><span class="toc-num">1</span>経歴</a></li>
+      <li>
+        <a href="#skills"><span class="toc-num">2</span>これまでの実績や活動</a>
+        <ul class="toc-sub">
+          <li><a href="#work-noujou">VC×動く垂直農場</a></li>
+          <li><a href="#work-sapio">Sapio Tree</a></li>
+          <li><a href="#skills-other">その他（EnterGuard／Re:plan）</a></li>
+        </ul>
+      </li>
+      <li><a href="#about"><span class="toc-num">3</span><span class="toc-label">私の長所<span class="toc-note">（実際に創って魅せる、アイデアマン）</span></span></a></li>
+      <li><a href="#motivation"><span class="toc-num">4</span>ANRIを志望する理由</a></li>
+      <li>
+        <a href="#invest"><span class="toc-num">5</span><span class="title-wrap"><span class="nw">ANRIで</span><span class="nw">投資したい領域 ＆</span> <span class="nw">創りたい世界観</span></span></a>
+        <ul class="toc-sub">
+          <li><a href="#invest-arch">① 建築業界のAI実装と自動化</a></li>
+          <li><a href="#invest-craft">② 伝統工芸産業のメゾン化</a></li>
+        </ul>
+      </li>
+      <li><a href="#closing"><span class="toc-num">6</span><span class="toc-label">終わりに<span class="toc-note">（ANRIに興味をもったきっかけ）</span></span></a></li>
+    </ol>
+   </div>
+  </nav>
+
+  <!-- ===== 経歴 ===== -->
+  <section class="section career" id="career">
+    <div class="section-inner">
+      <div class="career-text">
+        <h2 class="section-title"><span class="section-num">1</span>経歴</h2>
+
+        <p class="birth">2002年7月7日 生まれ<span class="age">（満<span id="age">24</span>歳）</span></p>
+
+        <ol class="timeline">
+          <li>
+            <span class="tl-year">2015 <i>—</i> 2021</span>
+            <span class="tl-body">私立市川中学・高校<small>（中高一貫）</small></span>
+          </li>
+          <li>
+            <span class="tl-year">2021 <i>—</i> 2025</span>
+            <span class="tl-body">早稲田大学 創造理工学部 建築学科</span>
+          </li>
+          <li>
+            <span class="tl-year">2025 <i>—</i> 2028</span>
+            <span class="tl-body">東北大学大学院 都市・建築学専攻</span>
+          </li>
+          <li>
+            <span class="tl-year">2026 <i>—</i> 2027</span>
+            <span class="tl-body">ローマ大学 ラ・サピエンツァ 建築学科<small>Sapienza Università di Roma</small></span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== これまでの実績や活動 ===== -->
+  <section class="section" id="skills">
+    <div class="section-inner single">
+      <h2 class="section-title"><span class="section-num">2</span>これまでの実績や活動</h2>
+
+      <!-- 主な実績 -->
+      <div class="skill-group" id="skills-main">
+
+        <!-- 作品：VC×動く垂直農場（卒業設計） -->
+        <article class="work" id="work-noujou">
+          <header class="work-head is-feature">
+            <h4 class="work-title">VC×動く垂直農場</h4>
+            <ul class="award-list">
+              <li class="is-key">最初にVCに興味を持ったきっかけ</li>
+              <li>赤れんが卒業設計展2025　100選</li>
+            </ul>
+          </header>
+
+          <ul class="work-links">
+            <li><a href="https://medium.com/@jyawaku/designing-a-castle-of-vc-agriculture-in-the-heart-of-japans-capital-8d3b6db45db2" target="_blank" rel="noopener">詳細記事<small>Medium ↗</small></a></li>
+            <li><a href="https://drive.google.com/drive/folders/1u4imcwebuM5vVFApich6nF6tlTrzeQ22" target="_blank" rel="noopener">高解像度（8K）詳細ポスター<small>Google Drive（画像／PDF） ↗</small></a></li>
+          </ul>
+
+          <div class="work-gallery">
+            <figure>
+              <a href="img/noujou-kikou.webp" target="_blank" rel="noopener"><img src="img/noujou-kikou.webp" alt="機構" width="2033" height="1723" loading="lazy"></a>
+              <figcaption>機構</figcaption>
+            </figure>
+          </div>
+
+          <div class="work-qa">
+            <section>
+              <h5 class="work-q">概要</h5>
+              <p>卒業設計として、3人チームのリーダーを務め、VC×農業の拠点を丸の内に垂直農場として設計した。</p>
+            </section>
+
+            <section>
+              <h5 class="work-q">なぜ作った（計画した）か？</h5>
+              <p>日本の食料自給率を改善すべく、農業を「家業」から「産業」へと転換することが必要と考えた。そのために、国内の経済的拠点（特に大企業の本拠地）である丸の内に実験的農場を設置し、大企業との資本提携、都内中心部からの農業革新技術の発信、そしてVCマネー（リスクマネー）の参入を計画した。</p>
+            </section>
+
+            <section>
+              <h5 class="work-q">一体どんな建築？</h5>
+              <p>水耕栽培やロボットなど、最先端の農業技術を使用した垂直農場。丸の内（江戸城二の丸内側）にちなんで、失われた江戸城天守閣をモチーフにした。</p>
+              <p>日射角度に合わせて各階の高さが変化するギミックを搭載。地下プールに水を貯めると、その重さでワイヤーが引っ張られ、建物中に張り巡らされたワイヤーが締め上がることで、建物が上昇・下降する。チャレンジングな構造として高く評価された。</p>
+            </section>
+
+            <section>
+              <h5 class="work-q">採算は？</h5>
+              <p>丸の内は単一デベロッパーが占有する土地である。だからこそ、この建物の敷地単体の利益構造ではなく、丸の内全体の利益構造としてマクロな視点で捉えた。</p>
+              <p>農業という性格は既存の丸の内にはない。この建物は新たな魅力となる建築アイコンとして、本来なかった農業マネー・VCマネー・観光マネーを丸の内に持ち込む。<strong>「点でリスクを取らせて、面で勝つ」</strong>という戦略を考えた。</p>
+            </section>
+
+            <section>
+              <h5 class="work-q">結果</h5>
+              <p>赤れんが卒業設計展2025（横浜）にて、全国で100選に選出された。</p>
+              <p>また、当時は食料供給について周囲は無関心であったが、米騒動の発生後に再評価された。</p>
+            </section>
+          </div>
+
+          <div class="vc-origin">
+            <blockquote>企画的にも、構造的にもチャレンジングな建物で、確かにVCみたい</blockquote>
+            <p class="vc-origin-mid">と周囲から言われたことで、</p>
+            <blockquote class="is-self">VCという世界の考え方と、自分の思考は似ているのかもしれない</blockquote>
+            <p class="vc-origin-mid">と、VCに興味を持ったきっかけになった。</p>
+          </div>
+
+          <div class="work-gallery pair">
+            <figure>
+              <a href="img/noujou-gaikan.webp" target="_blank" rel="noopener"><img src="img/noujou-gaikan.webp" alt="外観" width="1186" height="1400" loading="lazy"></a>
+              <figcaption>外観</figcaption>
+            </figure>
+            <figure>
+              <a href="img/noujou-kouzou.webp" target="_blank" rel="noopener"><img src="img/noujou-kouzou.webp" alt="上昇メカニズム" width="1600" height="1240" loading="lazy"></a>
+              <figcaption>上昇メカニズム</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <!-- 作品：Sapio Tree -->
+        <article class="work" id="work-sapio">
+          <header class="work-head is-feature">
+            <h4 class="work-title has-logo"><img class="work-logo" src="img/sapio-logo.webp" alt="" width="240" height="240"><a href="https://sapio-tree.vercel.app" target="_blank" rel="noopener" class="title-link">Sapio Tree<small>↗</small></a></h4>
+            <ul class="award-list">
+              <li class="is-key">スタートアッププロジェクト</li>
+              <li>ラツィオ州政府＆ローマ大学SIEH認定プロジェクト</li>
+              <li>Maker Faire Rome 2026 出展（現地大学代表）</li>
+              <li>東北大学SPF認定プロジェクト</li>
+            </ul>
+          </header>
+
+          <ul class="work-links">
+            <li><a href="https://sapio-tree.vercel.app" target="_blank" rel="noopener">Sapio Tree を開く<small>sapio-tree.vercel.app ↗</small></a></li>
+            <li><a href="https://zenn.dev/ojyawamaru/articles/104bf287500c12" target="_blank" rel="noopener">詳細記事（日本語）<small>Zenn ↗</small></a></li>
+            <li><a href="https://dev.to/ojyawamaru/dont-you-want-to-see-how-other-people-talk-to-ai-so-i-built-it-m34" target="_blank" rel="noopener">詳細記事（English）<small>dev.to ↗</small></a></li>
+          </ul>
+
+          <div class="work-gallery no-caption">
+            <figure>
+              <a href="img/sapio-tree.webp" target="_blank" rel="noopener"><img src="img/sapio-tree.webp" alt="Sapio Tree 画面" width="1800" height="896" loading="lazy"></a>
+            </figure>
+          </div>
+
+          <div class="work-qa">
+            <section>
+              <h5 class="work-q">概要</h5>
+              <p class="work-lead">複数のAIとのチャットを、仲間や世界とリアルタイムで共有して、分岐できるツール。</p>
+              <p>複数モデルのAI（Gemini、Claude、ChatGPT）と複数のユーザーが、同じ文脈を共有しながらリアルタイムにAIチャットを進め、さまざまな思考フローの分岐が樹形図として可視化される。</p>
+            </section>
+
+            <section>
+              <h5 class="work-q">なぜ作ったか？</h5>
+              <p class="qa-point">① 思考フローデータという、新しいデータを抽出するため</p>
+              <p>AI学習は知識を集約し、結果として一問一答的で統計的な回答に収束してしまう。突飛なアイデアや跳躍した思考には繋がりづらい。</p>
+              <p>Sapio Tree内で複数のAIと複数の人間が作り出す思考フローそのもののデータは、「どの文脈が面白いのか？」という長期的かつ広視野で不確実な文脈を生成する上で、貴重な学習データになり得ると考えたから。</p>
+              <p class="qa-point">② AIを個人消費から、集団知的生産に転換させたかったため</p>
+              <p>個人の端末画面の中で、AIとのチャットやアイデアが消えるのはもったいない。みんなでチャットを共有し、様々な文脈を可視化＆編集できたら、新しい知的生産になるのでは？と予想したから。</p>
+              <p>また、既存AI企業は同じサービスを展開しづらいと考えたから（個人向け収益の確保、プライバシーの先入観、他社モデルとの複合文脈データ）。</p>
+            </section>
+
+            <section>
+              <h5 class="work-q">一体どんなサービス？</h5>
+              <ol class="qa-list">
+                <li><span>①</span>各モデルのAPIを登録すると、世界中、またはグループでチャットできる。</li>
+                <li><span>②</span>同じ文脈からいくらでも分岐でき、リアルタイムで反映される。</li>
+                <li><span>③</span>コミュニティ内で盛り上がった文脈を一発で可視化でき、分岐数、評価数などの統計データも見られる。</li>
+                <li><span>④</span>チャットやブレインストーミングが終わったら、樹形図データ全体を任意の指示でまとめることが可能。</li>
+              </ol>
+            </section>
+
+            <section>
+              <h5 class="work-q">結果</h5>
+              <p>最初は思いつきと、自らが欲しいツールの作成として始めたが、周囲から評価され、留学先の大学と州政府が主催するSIEHスタートアッププロジェクトに、外国人学生でありながら認定された。また、所属する東北大学のSPFスタートアッププロジェクトにも認定された。</p>
+              <p>日欧を横断してプロジェクトを推進しようとしたが、最終的には無料リリースとした。スタートアップとしては事実上失敗だと捉えている。</p>
+              <p>2026年10月23〜25日に開催された Maker Faire Rome 2026（例年3日間で10万人が訪れる、欧州最大のビルダーイベント）に、現地大学代表として出展した。</p>
+              <p class="qa-point">うまくいかなかった理由</p>
+              <p><strong>① ムーンショットに振れすぎた。</strong>収益化の軸をデータの売却に置いたが、スタートアップとして考えると、極めて先行きの見通せない、長い道のりだった。</p>
+              <p><strong>② 人を頼れなかった。</strong>その長い道のりを、AIを使いながら一人で全てやろうとした。AIで何でもできるようになったことで自分を過信し、気づけば全てを自分で回していた。仲間を探す時間があるならプロダクトを進めたいと考え、仲間探しを軽視していた。人を頼ることを、忘れてしまっていた。その結果、体調を崩し、続けられなくなった。</p>
+              <p><strong>だからこそ、現在は才能ある起業家の、最初の仲間に自分からなりたいと思っている。</strong></p>
+              <figure class="work-side-photo qa-photo">
+                <a href="img/sapio-booth.webp" target="_blank" rel="noopener"><img src="img/sapio-booth.webp" alt="Maker Faire Rome 2026 ブースにて" width="900" height="876" loading="lazy"></a>
+                <figcaption>Maker Faire Rome 2026 ブースにて</figcaption>
+              </figure>
+            </section>
+          </div>
+
+          <div class="poster-block">
+            <p class="work-label">Maker Faire Rome 2026 で使用したポスター<span class="label-note">（一部表現にAIを利用）</span></p>
+            <ul class="poster-row">
+              <li><button type="button" class="lb-trigger" data-full="img/sapio-poster1.webp" aria-label="ポスターを拡大"><img src="img/sapio-poster1-thumb.webp" alt="A0ポスター" width="424" height="600" loading="lazy"></button></li>
+              <li><button type="button" class="lb-trigger" data-full="img/sapio-poster2.webp" aria-label="ポスターを拡大"><img src="img/sapio-poster2-thumb.webp" alt="A1ポスター" width="424" height="600" loading="lazy"></button></li>
+              <li><button type="button" class="lb-trigger" data-full="img/sapio-poster3.webp" aria-label="ポスターを拡大"><img src="img/sapio-poster3-thumb.webp" alt="A1横ポスター" width="600" height="424" loading="lazy"></button></li>
+            </ul>
+            <p class="poster-hint">タップで拡大</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- その他 -->
+      <div class="skill-group" id="skills-other">
+        <h3 class="skill-cat" data-en="Others">その他</h3>
+
+        <!-- 作品：EnterGuard -->
+        <article class="work mini" id="work-enterguard">
+          <p class="mini-kind">Mac拡張機能制作</p>
+          <header class="mini-head">
+            <h4 class="work-title has-logo"><img class="work-logo is-app" src="img/enterguard-icon.webp" alt="" width="256" height="256">EnterGuard</h4>
+            <ul class="work-links">
+              <li><a href="https://enterguard.app" target="_blank" rel="noopener">公式サイト・ダウンロード<small>↗</small></a></li>
+              <li><a href="https://zenn.dev/ojyawamaru/articles/51025a34adf27f" target="_blank" rel="noopener">記事<small>↗</small></a></li>
+            </ul>
+          </header>
+          <p class="mini-desc">Macの誤送信を防ぐ拡張機能。若者世代の悩みを解決するツール。自分自身が誤送信のストレスから解放されるために作成した。</p>
+          <div class="work-gallery no-caption mini-photo">
+            <figure>
+              <a href="img/enterguard-site.webp" target="_blank" rel="noopener"><img src="img/enterguard-site.webp" alt="EnterGuard 公式サイト" width="1600" height="1004" loading="lazy"></a>
+            </figure>
+          </div>
+        </article>
+
+        <!-- 作品：Re:plan -->
+        <article class="work mini" id="work-replan">
+          <p class="mini-kind">アプリ制作</p>
+          <header class="mini-head">
+            <h4 class="work-title has-logo"><img class="work-logo is-app" src="img/replan-icon.webp" alt="" width="256" height="256">Re:plan</h4>
+            <ul class="work-links">
+              <li><a href="https://apps.apple.com/jp/app/re-plan/id6761083401" target="_blank" rel="noopener">App Store<small>↗</small></a></li>
+            </ul>
+          </header>
+          <p class="mini-desc">Todo → 計画 → 修正 → 記録 → 分析 を1ツールで行うアプリ。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 私の長所 ===== -->
+  <section class="section about" id="about">
+    <div class="section-inner single">
+      <h2 class="section-title"><span class="section-num">3</span>私の長所</h2>
+
+      <div class="about-lead">
+        <p class="about-label">一言で言うと</p>
+        <p class="about-tagline">実際に創って魅せる、アイデアマン</p>
+      </div>
+
+      <div class="strengths">
+        <ol class="strength-list">
+          <li>
+            <span class="st-num">1</span>
+            <div class="st-body">
+              <h3 class="st-title">「なぜ？」から構造を見抜く力</h3>
+              <p>社会のルールや制度に対して、自然と「なぜ？」を考えてしまう。その背景にいる利害関係者や構造を知り、その結果、新たなやり方をひらめくことに快感を感じる。</p>
+              <p class="st-eg">例：丸の内全体の利益構造から、垂直農場の採算を「点でリスクを取らせて、面で勝つ」と捉えた</p>
+            </div>
+          </li>
+          <li>
+            <span class="st-num">2</span>
+            <div class="st-body">
+              <h3 class="st-title">分野横断の探究心と、分野統合のひらめき</h3>
+              <p>自分の専門にこだわらず、面白いと感じたことは何でも知りたい。アイデアの材料を分野を横断して探し出し、「別分野のこれと組み合わせればいいじゃないか！」と、新たな視点や解決策をひらめく。</p>
+              <p class="st-eg">例：建築×農業×VC（垂直農場）、伝統工芸×欧州のメゾン（投資したい領域②）</p>
+            </div>
+          </li>
+          <li>
+            <span class="st-num">3</span>
+            <div class="st-body">
+              <h3 class="st-title">創って、魅せる力</h3>
+              <p>新たなやり方をひらめいたら、実際に作ってみる。そして作ったら、評価される場所に持っていく。アイデアだけでなく、作り手の視点と「どう魅せればいいのか？」を、実際に経験してきた。</p>
+              <p class="st-eg">例：卒業設計で赤れんが100選、Sapio TreeでMaker Faire Rome出展</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ANRIを志望する理由（応募先ごとに差し替え） ===== -->
+  <section class="section motivation" id="motivation">
+    <div class="section-inner single">
+      <h2 class="section-title"><span class="section-num">4</span>ANRIを志望する理由</h2>
+
+      <div class="mv-flow">
+        <section class="mv-step">
+          <h3 class="mv-q">なぜVCなのか？</h3>
+          <p>自分自身スタートアップを目指していたが、（良くも悪くも）AIによって全てのタスクを自分でできるようになった結果、体力（健康）が消耗して諦めざるを得なかった（だからこそ、起業家の方を心の底から尊敬している）。</p>
+          <p>しかし、形を変えて新しいアイデアや挑戦に近くで関わり続けたいと思い、VCを志望した。</p>
+          <p>また、社会構造として、</p>
+          <p class="mv-pull">資本を集めてリスクヘッジをする</p>
+          <p>というVCの姿勢は、資本主義における最も面白い発明だと思い、魅力に感じた。</p>
+        </section>
+
+        <!-- 応募先ごとに差し替える部分 -->
+        <section class="mv-step">
+          <h3 class="mv-q">なぜANRIなのか？</h3>
+          <p>一番の理由は、シード投資をしたいから。シード投資を掲げるVCは多いが、</p>
+          <p class="mv-pull">海のものとも山のものともつかない</p>
+          <p>という、起業家にとってもVCにとっても最も難しいタイミングで、起業家を信頼して勝負するという姿勢が最も顕著だと感じ、深く共感したから。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">なぜシード投資をしたいのか？</h3>
+          <p>自分自身、スタートアッププログラムの中で、一人で暗闇の中を模索するようなきつさがあった。その時、一番欲しかったのは、一緒に考えてくれる、アイデアを共創できる、すくい上げてくれる最初の理解者だった。そんなキャピタリストに自分がなりたいと思った。</p>
+          <p>特に、Maker Faire Romeに出展した際に、素晴らしいアイデアや実行力がありながら、同じような境遇にあるスタートアップやプロジェクトをたくさん見て、VCキャピタリストを強く志すようになった。</p>
+        </section>
+      </div>
+
+      <div class="mv-vision">
+        <p class="about-label">なりたいキャピタリスト像</p>
+        <p class="mv-lead">正直に言えば、</p>
+        <p class="mv-sub">軌道に乗り始めた、出資の競合が多いスタートアップに対して投資を勝ち取るキャピタリスト</p>
+        <p class="mv-mid">以上に、</p>
+        <p class="mv-main">起業家にとって、最初に自分を見つけて、アイデアやチャンスを提供し、可能性を最大化させてくれる、<em>最初にして最大の理解者であり支援者</em>になれるキャピタリスト</p>
+        <p class="mv-end">に、真剣になりたい。</p>
+        <p class="mv-lead mv-plus-lead">そしてその先に、</p>
+        <p class="mv-main">すでにあるスタートアップにアプローチするだけでなく、<em>まだない、価値ある産業を構想し</em>、それを実行してくれる起業家を探し、投資を行いながら<em>一緒に作り上げる</em>キャピタリスト</p>
+        <p class="mv-end">を目指したい。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ANRIで投資したい領域 ＆ 創りたい世界観（見出しの「ANRI」は応募先ごとに差し替え） ===== -->
+  <section class="section invest" id="invest">
+    <div class="section-inner single">
+      <h2 class="section-title"><span class="section-num">5</span><span class="title-wrap"><span class="nw">ANRIで</span><span class="nw">投資したい領域 ＆</span> <span class="nw">創りたい世界観</span></span></h2>
+      <p class="invest-note">これらは、あくまで現時点の自分が考えた仮説にすぎず、VCの現場に入れば、ほかの領域からも刺激を受け、興味を持って取り組んでいきます。</p>
+
+      <div class="invest-theme" id="invest-arch">
+      <p class="invest-lead"><span class="invest-no">①</span>建築業界のAI実装と自動化</p>
+      <p class="invest-sub">特に、最初のステップとして建築設計の自動化。</p>
+
+      <div class="mv-flow no-arrow">
+        <section class="mv-step">
+          <h3 class="mv-q">なぜ今か</h3>
+          <p>建築業界は深刻な人手不足に陥っており、設計を担う一級建築士の高齢化が進んでいる。</p>
+          <ul class="stat-row two">
+            <li><span class="stat-label">60歳以上</span><span class="stat-num">約43<small>%</small></span></li>
+            <li><span class="stat-label">50歳以上</span><span class="stat-num">約70<small>%</small></span></li>
+          </ul>
+          <p class="stat-note">建築士事務所に所属する一級建築士の年齢構成（2024年4月時点、国土交通省資料）</p>
+          <p>人口が減る一方で、高度経済成長期に建設された建物やインフラの更新期が、これから一斉に訪れる。さらに、現場工事とは異なり、建築士は外国人材で補うことが難しい。建築業界は、自動化やAIによる自動設計を導入せざるを得ない状況に追い込まれていくと考えている。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">難しさと、それでも投資したい理由</h3>
+          <p>現時点では、AIに建築設計を丸ごと任せることはできない。仮に技術的に可能になっても、法規の変更、責任の所在、国際展開を見越すなら地域ごとの制約など、技術以外の難しさもある。しかし、</p>
+          <p class="mv-pull">業務があふれ、人手不足が加速していく中で、今後もずっと人に依存する手法で回しきる未来は現実的か？</p>
+          <p>と問われれば、私はそうは思わない。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">なぜスタートアップという手法か</h3>
+          <p>建築は自分の専門であると同時に、保守的で硬直した業界の一つでもある。だからこそ、業界の内側からではなく、外側から、スタートアップという手法で変革を起こすことが勝ち筋だと考えている。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">市場規模</h3>
+          <ul class="stat-row">
+            <li><span class="stat-label">世界の建設市場</span><span class="stat-num">約1,440<small>兆円</small></span></li>
+            <li><span class="stat-label">国内の建設市場</span><span class="stat-num">約81<small>兆円</small></span></li>
+            <li class="is-key"><span class="stat-label">国内の設計業務のみ</span><span class="stat-num">約4.5<small>兆円</small></span></li>
+          </ul>
+          <p class="stat-note">国内の建設市場：国土交通省「令和8年度（2026年度）建設投資見通し」</p>
+          <p>最も現実的な最初のステップである、国内の設計業務だけに絞っても、約4.5兆円の市場がある。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">現在の取り組み</h3>
+          <p>実際に自動設計に取り組むスタートアップのCEOに、オンラインでお話を伺うなどして、知見を深めている。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">懸念点</h3>
+          <p>建築業界は非常にアナログで、新しい技術の導入が進みにくい（だからこそ、やる価値がある）。建築士の年齢構成が大きく変わる時期（引退の集中）など、参入のタイミングを見極める必要があると考えている。</p>
+        </section>
+      </div>
+      </div>
+
+      <div class="invest-theme" id="invest-craft">
+      <p class="invest-lead"><span class="invest-no">②</span>伝統工芸産業のメゾン化</p>
+      <p class="invest-sub">各地に散らばる工房でメゾンを組み、高付加価値産業として世界に打ち出す。</p>
+
+      <div class="mv-flow no-arrow">
+        <section class="mv-step">
+          <h3 class="mv-q">現状の課題</h3>
+          <p>日本の伝統工芸には、深刻な問題が二つある。後継者不足と、人々の伝統工芸離れである。両者は互いに関係している。</p>
+          <ul class="stat-row stack">
+            <li><span class="stat-label">生産額</span><span class="stat-num change"><span class="from">2,784<small>億円</small> →</span><span>約1,000<small>億円</small></span></span></li>
+            <li><span class="stat-label">従事者数</span><span class="stat-num change"><span class="from">11.5<small>万人</small> →</span><span>4.8<small>万人</small></span></span></li>
+            <li><span class="stat-label">50歳以上の割合</span><span class="stat-num change"><span class="from">&nbsp;</span><span>63.6<small>%</small></span></span></li>
+          </ul>
+          <p class="stat-note">国が指定する伝統的工芸品（全国244品目）の数値。生産額・従事者数は1998年度からの変化（従事者数と年齢構成は2022年度）。経済産業省 伝統的工芸品産業室の資料（2026年）より</p>
+          <p>知名度の高い産地も例外ではない。有田焼の売上は、ピーク時（1991年）の6分の1まで落ち込んだとされる。</p>
+          <p class="stat-note">有田焼：佐賀県「有田焼の海外販路開拓に係る佐賀県の取組みについて」</p>
+          <p>国内では伝統工芸産業そのものがあまり知られておらず、若い世代の関心は海外ブランドに向いている。知られていないから売れず、触れるきっかけもない。</p>
+          <p>加えて、伝統工芸は一般的に儲かりづらい。特に、技術を習得するまでの修行期間の給与は、賃上げの進む他業種ほど高くない。さらに、職人気質からクオリティは追求されるものの、それを社会に伝え、背景にあるストーリーや技術を魅力として届ける役割が、明らかに欠けている。</p>
+          <p class="mv-pull">知らない、儲からない、やりたくないの三重苦</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">海外での評価</h3>
+          <p>一方で、日本の伝統工芸は海外では極めて評価が高いと実感した。特に留学先の欧州には、ストーリーを持つハイクオリティな手仕事に、高い対価を払う文化がある。現在の海外での日本文化の急速な受容は、ジャポニズムの再来だと考えている。</p>
+          <p>実際に、海外に届いた産地では結果が出ている。刃物の産地である岐阜県関市では、包丁を中心に海外で人気を集め、輸出が伸びている。南部鉄器には、東南アジア向けに数年待ちの商品を持つ事業者もある。私がこれまで利用してきた工房でも、近年は日本人より海外からの注文が多くなってきているという。</p>
+          <p class="stat-note">関市の包丁：日刊工業新聞（2026年11月）。南部鉄器：中小企業庁の事例集（2020年）</p>
+          <p class="mv-pull">海外に届けば、化ける</p>
+          <p>ただし、海外から注文を受ける工房はまだ少なく、言語の壁もある。プロモーションが成功したというより、国内ですでに有力ないくつかの工房が、海外富裕層のコンシェルジュに見つけてもらった、という側面の方が大きい。</p>
+          <p>産業全体は縮小し、海外に届いた一部だけが伸びている。問題は品質ではなく、届け方にあると考えている。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">構想：工房でメゾンを組む</h3>
+          <p>ローマ留学中に、欧州のメゾン産業の仕組みを知った。これをうまく応用すれば、日本の伝統工芸産業も現状を変えられるかもしれないと考えた。</p>
+          <p>国内に散らばる工房が、それぞれ単独で販路開拓や海外戦略を行うのではなく、メゾンを組み、高付加価値産業として大きく世界に打ち出す。ただし、海外ブランドと同じ生産体制やブランディングを目指すべきではない。</p>
+          <p class="mv-pull no-quote">「ロゴによる付加価値」ではなく、職人の「クオリティによる付加価値」を実現したい。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">なぜ今か</h3>
+          <p>文化産業は、日本が世界トップレベルの国際競争力を持つ数少ない産業である。私の仮説では、伝統工芸産業は本来、海外の主要ブランドと並ぶポテンシャルがあるのに、やり方を見つけられていないだけに見える。</p>
+          <p>しかし放っておけば、後継者問題と収益性の低さ、そして余裕のなさからくる災害への弱さによって、消えてしまいかねない。2024年の能登半島地震で被災した輪島塗は、2年が経っても生産額が震災前の約7割、従事者数が7〜8割にとどまっている。</p>
+          <p class="stat-note">輪島塗の数値：財務省 北陸財務局「能登半島地震からの復旧・復興状況について」（2026年1月）</p>
+          <p>一度途絶えれば、海外で評価されている「受け継がれてきたストーリー」そのものが失われる。そうなる前の現在が、最大のチャンスである。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">市場規模（参考）</h3>
+          <p>これはまだ前例の少ない、新しい産業構想であり、市場規模の予測は難しい。そこで、参考となる数字を並べる。</p>
+          <ul class="stat-row">
+            <li><span class="stat-label">国内の伝統的工芸品</span><span class="stat-num">約1,000<small>億円</small></span></li>
+            <li><span class="stat-label">エルメス1社の売上</span><span class="stat-num">約2.8<small>兆円</small></span></li>
+            <li><span class="stat-label">世界の個人向け高級品</span><span class="stat-num">約64<small>兆円</small></span></li>
+          </ul>
+          <p class="stat-note">国内の伝統的工芸品は生産額。エルメスは2025年通期決算（売上160億ユーロ）。高級品市場は2026年見込み（3,670億ユーロ、Bain &amp; Company）。1ユーロ＝約175円で換算</p>
+          <p>全国244品目を合わせた伝統的工芸品の生産額は、職人の手仕事を価値の中心に置く海外メゾン1社の、約30分の1にすぎない。同じものを目指すわけではないが、「手仕事のクオリティ」に世界が払う対価の大きさと、現状との差は、そのまま伸びしろだと考えている。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">懸念点</h3>
+          <ol class="qa-list">
+            <li><span>①</span>生産量のボトルネック。職人の数があまりにも少なく、現在の従事者だけでは生産体制に限界がある。</li>
+            <li><span>②</span>高付加価値化への抵抗。伝統的に、職人は高い値付けを好まない。ただし、変わらなければ生き残れないと、変化が起き始めているのも事実である。</li>
+            <li><span>③</span>誇りを置き去りにするリスク。職人とのコミュニケーションなどで収益性を前面に出しすぎ、職人や技術の誇りを置き去りにすれば、この構想は瓦解する。最初は美術館的な性格を持たせることも考えたい。</li>
+            <li><span>④</span>共同で打って出ることへの抵抗。今のやり方にこだわりがあり、他の工房と共に海外に販路を求めること自体に、抵抗があるかもしれない。</li>
+            <li><span>⑤</span>外部の人間への信頼。そもそも、どこの誰とも分からない外部の人間が、職人気質の産業で話を聞いてもらえるのか、という問題がある。</li>
+          </ol>
+          <p class="after-list">ただし、三重苦の現状が差し迫っているほど、工房側も真剣に生き残りを考えており、入り込む余地があると考えている。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">私の関わり方</h3>
+          <p>この構想を自分一人で形にするのは難しい。だからこそキャピタリストとして、この領域に挑む起業家を探し、まだいなければ、構想を一緒に練るところから関わりたい。</p>
+        </section>
+      </div>
+      </div>
+
+      <div class="invest-closing">
+        <p>この2つは、あくまで現時点の自分が考えた仮説にすぎません。VCの現場に入れば、ほかの領域からも刺激を受け、興味を持って取り組んでいきます。むしろそれを見越して、分野を横断して取り組んでいきたい。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 終わりに（きっかけ・日程は応募先ごとに差し替え） ===== -->
+  <section class="section closing" id="closing">
+    <div class="section-inner single">
+      <h2 class="section-title"><span class="section-num">6</span>終わりに</h2>
+      <div class="mv-flow no-arrow">
+        <section class="mv-step">
+          <h3 class="mv-q">ANRIに興味をもったきっかけ</h3>
+          <p>ANRIを知ったきっかけは、中高の後輩である大村慧さん（英国イートン校の夏期研修でご一緒しただけなので、覚えていらっしゃらないかもしれません）が株式会社mairu techを経営されていると、たまたま知ったことでした。</p>
+          <p>患者搬送（民間救急）という、社会を支えながらも光の当たりにくい領域に、正面からテクノロジーを用いて改革を起こそうとする姿勢に、尊敬の気持ちを持ちました。そして「こうした素晴らしい挑戦には、一体どんな会社が出資しているのだろうか？」という疑問から出資者を調べ、ANRIの存在を知りました。</p>
+        </section>
+
+        <section class="mv-step">
+          <h3 class="mv-q">帰国日程について</h3>
+          <p>現在ローマに交換留学中で、<strong>2026年12月16日〜2027年1月10日</strong>に日本へ一時帰国します。もし書類選考を通過でき、対面でお会いすることが可能でしたら、ぜひそのタイミングで面接やインターン等に参加したく存じます。</p>
+          <p class="stat-note">※本帰国は2027年2月末です。</p>
+        </section>
+      </div>
+      <div class="contact">
+        <p class="about-label">連絡先</p>
+        <a class="contact-mail" href="mailto:jyawaku@gmail.com">jyawaku@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 画像拡大表示 -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="lb-close" aria-label="閉じる">×</button>
+    <img src="" alt="">
+  </div>
+
+  <footer class="footer">
+    <a href="#top" class="to-top">↑ Top</a>
+    <p>© <span id="year">2026</span> Kotaro Kitazawa</p>
+  </footer>
+
+  <script>
+    // 満年齢を自動計算
+    (function () {
+      var birth = new Date(2002, 6, 7); // 月は0始まり → 7月
+      var now = new Date();
+      var age = now.getFullYear() - birth.getFullYear();
+      var m = now.getMonth() - birth.getMonth();
+      if (m < 0 || (m === 0 && now.getDate() < birth.getDate())) age--;
+      document.getElementById('age').textContent = age;
+      document.getElementById('year').textContent = now.getFullYear();
+    })();
+
+    // 画像の拡大表示（ライトボックス）
+    (function () {
+      var lb = document.getElementById('lightbox');
+      var img = lb.querySelector('img');
+      function open(src) { img.src = src; lb.hidden = false; document.body.style.overflow = 'hidden'; }
+      function close() { lb.hidden = true; img.src = ''; document.body.style.overflow = ''; }
+      document.querySelectorAll('.lb-trigger').forEach(function (b) {
+        b.addEventListener('click', function () { open(b.getAttribute('data-full')); });
+      });
+      // 作品写真（画像へのリンク）も、新しいタブではなくページ上で拡大
+      document.querySelectorAll('.work-gallery a[href$=".webp"], .work-side-photo a[href$=".webp"]').forEach(function (a) {
+        a.addEventListener('click', function (e) { e.preventDefault(); open(a.getAttribute('href')); });
+      });
+      lb.addEventListener('click', close);
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !lb.hidden) close(); });
+    })();
+
+    // スクロールで要素をふわっと表示
+    (function () {
+      var targets = document.querySelectorAll('.section-inner, .toc, .hero-inner');
+      if (!('IntersectionObserver' in window)) {
+        targets.forEach(function (t) { t.classList.add('is-visible'); });
+        return;
+      }
+      // threshold は 0：背の高いセクションでも、少しでも画面に入ったら表示する
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0, rootMargin: '0px 0px -8% 0px' });
+      targets.forEach(function (t) { io.observe(t); });
+      // 念のため：3秒経っても表示されていないものは強制表示
+      setTimeout(function () { targets.forEach(function (t) { t.classList.add('is-visible'); }); }, 3000);
+    })();
+  </script>
+  <script>
+    // メニューバー：ページ内の目次を複製して、開閉・ジャンプできるようにする
+    (function () {
+      var btn = document.querySelector('.topbar-btn');
+      var menu = document.getElementById('topmenu');
+      var src = document.querySelector('.toc-list');
+      if (!btn || !menu || !src) return;
+      var list = src.cloneNode(true);
+      menu.querySelector('.topmenu-inner').appendChild(list);
+      function setOpen(open) {
+        menu.hidden = !open;
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        document.body.classList.toggle('menu-open', open);
+      }
+      btn.addEventListener('click', function (e) { e.stopPropagation(); setOpen(menu.hidden); });
+      menu.addEventListener('click', function (e) {
+        if (e.target.closest('a')) setOpen(false);
+        else if (e.target === menu) setOpen(false);
+      });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+      document.addEventListener('click', function (e) {
+        if (!menu.hidden && !menu.contains(e.target) && !btn.contains(e.target)) setOpen(false);
+      });
+    })();
+  </script>
+</body>
+</html>
